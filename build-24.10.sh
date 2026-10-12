@@ -29,6 +29,8 @@ PACKAGES="$PACKAGES luci-theme-argon luci-app-argon-config luci-i18n-argon-confi
 # 常用kmod组件
 PACKAGES="$PACKAGES kmod-usb2 kmod-usb3 kmod-usb-ohci kmod-usb-uhci usbutils"
 PACKAGES="$PACKAGES kmod-usb-printer"
+# 定时重启
+PACKAGES="$PACKAGES luci-app-autoreboot luci-i18n-autoreboot-zh-cn"
 # USB打印机
 PACKAGES="$PACKAGES luci-app-usb-printer luci-i18n-usb-printer-zh-cn"
 # 终端
